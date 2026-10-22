@@ -1,0 +1,20 @@
+{
+  "name": "cafe-catracho",
+  "version": "1.0.0",
+  "description": "Sitio web responsive con Bootstrap 4 - Módulo 1",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bootstrap", "responsive", "lite-server"],
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

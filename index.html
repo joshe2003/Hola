@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Café Catracho</title>
+
+  <!-- CSS de Bootstrap desde node_modules -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Jumbotron con el título del proyecto -->
+  <div class="jumbotron text-center mb-0">
+    <h1 class="display-4">Café Catracho</h1>
+    <p class="lead">El mejor café de altura, directo de las montañas de Honduras.</p>
+  </div>
+
+  <main class="container">
+
+    <!-- 3 párrafos con título y descripción de las características del producto -->
+    <section>
+      <h2 class="titulo-seccion">Nuestro café</h2>
+
+      <h3>Cultivo de altura</h3>
+      <p>Nuestros granos crecen entre 1,200 y 1,700 metros sobre el nivel del mar, lo que les da una acidez brillante, mayor dulzura y un perfil de sabor más complejo.</p>
+
+      <h3>Tostado artesanal</h3>
+      <p>Tostamos en lotes pequeños para cuidar cada detalle. Así conservamos las notas de chocolate, caramelo y frutas que hacen único a cada origen.</p>
+
+      <h3>Comercio justo</h3>
+      <p>Trabajamos directamente con familias productoras, pagando precios justos y apoyando prácticas sostenibles que cuidan la tierra y a las comunidades.</p>
+    </section>
+
+    <!-- Lista de productos con sistema de grillas (row + col) transformado a flex -->
+    <section>
+      <h2 class="titulo-seccion">Nuestros productos</h2>
+
+      <div class="row d-flex flex-wrap">
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Café Clásico</h4>
+            <p class="producto-descripcion">Tueste medio, equilibrado y suave. Ideal para el café de todos los días.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Café Espresso</h4>
+            <p class="producto-descripcion">Tueste oscuro e intenso, con cuerpo robusto y notas a chocolate amargo.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Café Orgánico</h4>
+            <p class="producto-descripcion">Cultivado sin químicos, con certificación orgánica y notas frutales.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Café Descafeinado</h4>
+            <p class="producto-descripcion">Todo el sabor del café, sin cafeína. Perfecto para disfrutarlo de noche.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Café en Grano</h4>
+            <p class="producto-descripcion">Granos enteros recién tostados para moler en casa y conservar el aroma.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 d-flex mb-4">
+          <div class="producto">
+            <h4 class="producto-titulo">Pack Degustación</h4>
+            <p class="producto-descripcion">Cuatro orígenes en porciones pequeñas para descubrir tu favorito.</p>
+            <a href="#" class="btn producto-boton">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer: alineación izquierda, centro y derecha -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-4 text-center text-md-left mb-3">
+          <h5>Café Catracho</h5>
+          <address>
+            Barrio La Granja, 3a. Avenida<br>
+            Tegucigalpa, Honduras<br>
+            Tel: <a href="tel:+50422000000">+504 2200-0000</a><br>
+            <a href="mailto:info@cafecatracho.hn">info@cafecatracho.hn</a>
+          </address>
+        </div>
+
+        <div class="col-12 col-md-4 text-center mb-3">
+          <h5>Síguenos</h5>
+          <p>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a> |
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> |
+            <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+          </p>
+        </div>
+
+        <div class="col-12 col-md-4 text-center text-md-right mb-3">
+          <h5>Horarios</h5>
+          <p>
+            Lunes a Viernes: 8:00 - 18:00<br>
+            Sábados: 9:00 - 14:00
+          </p>
+        </div>
+
+      </div>
+      <hr class="border-secondary">
+      <p class="text-center small mb-0">&copy; 2026 Café Catracho. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS: jQuery, Popper y Bootstrap desde node_modules -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
